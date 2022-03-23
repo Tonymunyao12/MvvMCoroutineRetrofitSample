@@ -14,8 +14,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         />
+=======
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+>>>>>>> Initial commit - addition of slight changes.
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +30,11 @@
         tools:itemCount="5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+<<<<<<< HEAD
         app:layout_constraintStart_toStartOf="parent"
         />
+=======
+        app:layout_constraintStart_toStartOf="parent" />
+>>>>>>> Initial commit - addition of slight changes.
 
 </androidx.constraintlayout.widget.ConstraintLayout>

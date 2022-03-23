@@ -9,6 +9,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.mulatya.mvvmcoroutinesample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+
     lateinit var viewModel: MainViewModel
     private val adapter = MovieAdapter()
     lateinit var binding: ActivityMainBinding

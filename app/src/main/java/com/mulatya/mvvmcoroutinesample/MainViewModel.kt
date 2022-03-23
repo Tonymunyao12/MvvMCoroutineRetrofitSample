@@ -39,5 +39,4 @@ class MainViewModel constructor(private val mainRepository: MainRepository) : Vi
         job?.cancel()
     }
 
-
 }
